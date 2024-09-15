@@ -1,0 +1,9 @@
+<p>localtemplate works!</p>
+
+@let user = $user;
+
+@let greeting = user ? 'Hello, ' + user.name : 'Loading';
+
+<p>
+    {{greeting}}
+</p>

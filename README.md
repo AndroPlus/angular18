@@ -12,7 +12,6 @@ Deferrable views can be used in component template to defer the loading of selec
  Sample:-  https://github.com/AndroPlus/angular18/blob/main/src/app/localtemplate/localtemplate.component.html
 
  # 3. SSR/Hydration
-
  npm run build
 
  npm run serve:ssr:angular18

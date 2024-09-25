@@ -37,13 +37,13 @@ Summary of Higher-Order Mapping Operators:
 
 ## Operator	Behavior
 
-### mergeMap
+## mergeMap
 	Processes all inner observables concurrently.
-concatMap
+## concatMap
 	Processes inner observables sequentially, one after the other.
-switchMap
+## switchMap
 	Switches to the latest inner observable, cancelling the previous ones.
-exhaustMap
+## exhaustMap
 	Ignores new outer emissions while the current inner observable is still running.
 
 ## Real-World Use Cases:

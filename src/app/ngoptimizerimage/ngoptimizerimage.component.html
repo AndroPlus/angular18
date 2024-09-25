@@ -1,0 +1,24 @@
+<ng-container *ngFor="let img of imageUrls">
+    <ng-container *ngIf="img.id == 'class-1'">
+      <img
+        [ngSrc]="img.url"
+        width="1000"
+        height="600"
+        [ngClass]="img.id"
+        ngSrcset="200w, 400w, 600w, 800w, 1000w, 1200w, 1600w, 2000w, 3000w"
+        priority
+      />
+    </ng-container>
+    <ng-container *ngIf="img.id != 'class-1'">
+      <img
+        [ngSrc]="img.url"
+        width="1000"
+        height="600"
+        [ngClass]="img.id"
+        ngSrcset="200w, 400w, 600w, 800w, 1000w, 1200w, 1600w, 2000w, 3000w" 
+      />
+    </ng-container>
+  
+    <p>{{ randomContent }}</p>
+  </ng-container>
+  

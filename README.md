@@ -35,18 +35,26 @@ Generating a preload hint if app is using SSR
   # 4. Rxjs - map
 Summary of Higher-Order Mapping Operators:
 
-Operator	Behavior
+## Operator	Behavior
 
-mergeMap	Processes all inner observables concurrently.
-concatMap	Processes inner observables sequentially, one after the other.
-switchMap	Switches to the latest inner observable, cancelling the previous ones.
-exhaustMap	Ignores new outer emissions while the current inner observable is still running.
+### mergeMap
+	Processes all inner observables concurrently.
+concatMap
+	Processes inner observables sequentially, one after the other.
+switchMap
+	Switches to the latest inner observable, cancelling the previous ones.
+exhaustMap
+	Ignores new outer emissions while the current inner observable is still running.
 
-Real-World Use Cases:
+## Real-World Use Cases:
 
-mergeMap: Handling multiple concurrent HTTP requests, processing multiple files simultaneously.
-concatMap: Handling operations like form submissions where you need to process one at a time.
-switchMap: Autocomplete or search where only the latest user input matters.
-exhaustMap: Preventing multiple clicks on a button to avoid duplicate submissions, ignoring inputs until a long-running process completes.
+mergeMap:
+ Handling multiple concurrent HTTP requests, processing multiple files simultaneously.
+concatMap:
+ Handling operations like form submissions where you need to process one at a time.
+switchMap:
+ Autocomplete or search where only the latest user input matters.
+exhaustMap:
+ Preventing multiple clicks on a button to avoid duplicate submissions, ignoring inputs until a long-running process completes.
 
 Sample:-  https://github.com/AndroPlus/angular18/blob/main/src/app/ngrx-test/ngrx-test.component.html

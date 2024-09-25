@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgrxTestComponent } from './ngrx-test.component';
+import { RxjsTestComponent } from './rxjs-test.component';
 
-describe('NgrxTestComponent', () => {
-  let component: NgrxTestComponent;
-  let fixture: ComponentFixture<NgrxTestComponent>;
+describe('RxjsTestComponent', () => {
+  let component: RxjsTestComponent;
+  let fixture: ComponentFixture<RxjsTestComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgrxTestComponent]
+      imports: [RxjsTestComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(NgrxTestComponent);
+    fixture = TestBed.createComponent(RxjsTestComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

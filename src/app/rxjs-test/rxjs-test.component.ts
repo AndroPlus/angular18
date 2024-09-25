@@ -3,13 +3,13 @@ import { Component, OnInit } from '@angular/core';
 import { AsyncSubject, BehaviorSubject, concatMap, delay, exhaustMap, mergeMap, Observable, of, ReplaySubject, Subject, Subscription, switchMap } from 'rxjs';
 
 @Component({
-  selector: 'app-ngrx-test',
+  selector: 'app-rxjs-test',
   standalone: true,
   imports: [CommonModule ],
-  templateUrl: './ngrx-test.component.html',
-  styleUrl: './ngrx-test.component.scss'
+  templateUrl: './rxjs-test.component.html',
+  styleUrl: './rxjs-test.component.scss'
 })
-export class NgrxTestComponent implements OnInit {
+export class RxjsTestComponent implements OnInit {
 
   subject: Subject<number>  = new Subject<number>();
   behaviourSubject: BehaviorSubject<number> = new BehaviorSubject<number>(0);

@@ -54,3 +54,8 @@ exhaustMap:
  Preventing multiple clicks on a button to avoid duplicate submissions, ignoring inputs until a long-running process completes.
 
 Sample:-  https://github.com/AndroPlus/angular18/blob/main/src/app/rxjs-test/rxjs-test.component.html
+
+
+# 4. ngrx
+
+Sample:-  https://github.com/AndroPlus/angular18/blob/main/src/app/ngrx-test/ngrx-test.component.html

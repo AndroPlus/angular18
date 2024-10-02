@@ -56,6 +56,13 @@ exhaustMap:
 Sample:-  https://github.com/AndroPlus/angular18/blob/main/src/app/rxjs-test/rxjs-test.component.html
 
 
-# 4. ngrx
+# 5. ngrx
 
 Sample:-  https://github.com/AndroPlus/angular18/blob/main/src/app/ngrx-test/ngrx-test.component.html
+
+
+
+
+# 6. Signal
+
+Sample:-  https://github.com/AndroPlus/angular18/blob/main/src/app/signal-test/signal-test.component.html
